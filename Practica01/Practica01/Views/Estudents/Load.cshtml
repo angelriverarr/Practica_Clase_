@@ -1,0 +1,17 @@
+﻿@model Practica01.Models.Estudiantes
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-controller="Estudents" asp-action="actu">
+    <label>id</label>
+    <input type="text" asp-for="id" />
+      <label>nombre</label>
+    <input type="text" asp-for="name" />
+      <label>last name</label>
+    <input type="text" asp-for="lastName" />
+
+    <button>Update</button>
+
+</form>
